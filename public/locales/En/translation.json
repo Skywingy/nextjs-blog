@@ -1,0 +1,48 @@
+{
+    "Name":{
+        "1": "Nyam-Erdene N."
+    },
+    "Who":{
+        "1": "Hi, I'm a passionate self-motivated web developer. I'm comfortable with React, Express.js, PostgreSQL and MongoDB. After a year of study, I am ready to contribute to the world in this new way, and I'm looking forward to bringing the best traits of a creative developer."
+    },
+    "tools":{
+        "1": "Tools and Skills"
+    },
+    "personal":{
+        "1": "Personal Projects"
+    },
+    "view":{
+        "1": "View More"
+    },
+    "contact":{
+        "1": "Contact",
+        "2": "Nyamka523@gmail.com",
+        "3": "+976 88811663"
+    },
+    "title":{
+        "1": "Fight Club",
+        "2": "Ghibli Print Studio",
+        "3": "Three Role School"
+    },
+    "subtitle":{
+        "1": "Members only",
+        "2": "React shopping store",
+        "3": "School management system"
+    },
+    "summary":{
+        "1": "Exclusive clubhouse where members can write anonymous posts. Inside the clubhouse, members can see who the author of a post is, but outside they can only see the story and wonder who wrote it.",
+        "2": "A front-end store built with React, React Router, and CSS. The store allows users to browse, add, and remove items from their cart.",
+        "3": "A front-end and back-end complex application for school related systems. After login, depending on roles /teacher, student, admin/ you can do certain actions such as adding teachers, classes, changing students or searching for personal information."
+    },
+    "technologies":{
+        "1": "Express.JS, Pug.JS, Mongo.DB",
+        "2": "React.JS, React Router",
+        "3": "React.JS, Express.JS, PostgreSQL"
+    },
+    "summ":{
+        "1": "Summary"
+    },
+    "tech":{
+        "1": "Technologies"
+    }
+}
