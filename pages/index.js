@@ -24,7 +24,7 @@ import gh from '../public/github-svgrepo-com.svg';
 import webpack from '../public/webpack-svgrepo-com.svg';
 import ps from '../public/icons8-adobe-photoshop-100.png';
 import {useState} from 'react';
-import './i18next';
+import '../i18next';
 import Select from '@mui/joy/Select';
 import Option from '@mui/joy/Option';
 import KeyboardArrowDown from '@mui/icons-material/KeyboardArrowDown';
