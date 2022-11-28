@@ -369,7 +369,7 @@ export default function Home() {
               </div>
             </div>
             <div className='divider border border-cyan-500'></div>
-            <div className='pb-8 pt-4 cardie flex flex-col lg:flex-row'>
+            <div className='pb-8 pt-4 cardie flex flex-row'>
                   <a href='https://github.com/Skywingy?tab=repositories' target="_blank" className='text-black font-bold text-4xl dark:text-teal-50' suppressHydrationWarning rel="noreferrer">{t('view.1')}</a>
                   <AiOutlineArrowUp className='text-black text-5xl pl-2 pr-2 dark:text-teal-50' style = {{transform: 'rotate(45deg)' }}/>
             </div>
