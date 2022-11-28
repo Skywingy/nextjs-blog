@@ -106,7 +106,7 @@ export default function Home() {
                   }
                 }}
                 indicator={<KeyboardArrowDown />}
-                className=' text-base bg-gradient-to-r from-cyan-500 to-teal-500 text-white px-4 py-2 rounded-md ml-8'
+                className=' lang text-base bg-gradient-to-r from-cyan-500 to-teal-500 px-4 py-2 rounded-md ml-8'
                 >
                   <Option value="en">English</Option>
                   <Option value="Mn">Mongolia</Option>
