@@ -36,7 +36,7 @@ export default function Home() {
   
 
   const [isNavOpen, setIsNavOpen] = useState(false);
-  const [mode, setMode] = useState('light');
+  const [mode, setMode] = useState('dark');
   const [darkMode, setDarkMode] = useState(true);
   
   const toggle=()=>{
@@ -142,8 +142,9 @@ export default function Home() {
                   </svg>
                 </div>
                 <ul className="NAVIGATION-MOBILE-OPEN flex flex-col items-center justify-between min-h-[250px] ">
-                  <li>
+                  <li className='ra'>
                     <DarkModeToggle
+                    className='raa'
                       mode={mode}
                       dark="Dark"
                       light="Light"  
