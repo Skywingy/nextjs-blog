@@ -93,7 +93,7 @@ export default function Home() {
                 </label>
               </li>
               <li>
-                <a className='zogsohgui text-base bg-gradient-to-r from-cyan-500 to-teal-500 text-white px-4 py-3 rounded-md ml-8 hover:text-black' href='./resume.pdf' download='Nyam-Erdene N.'>Resume</a>
+                <a className='zogsohgui text-base bg-gradient-to-r from-cyan-500 to-teal-500 text-black px-4 py-3 rounded-md ml-8 hover:text-black' href='./resume.pdf' download='Nyam-Erdene N.'>Resume</a>
               </li>      
               <li>
                 <Select
@@ -175,7 +175,7 @@ export default function Home() {
                         sx: {backgroundColor: '#f6ffff '}
                       }
                     }}
-                    indicator={<KeyboardArrowDown />}
+                    indicator={<KeyboardArrowDown className='end'/>}
                     className=' text-base bg-gradient-to-r from-cyan-500 to-teal-500 text-white px-4 py-2 rounded-md ml-8'
                     >
                       <Option value="en">English</Option>
