@@ -40,7 +40,7 @@ export default function Home() {
   const style = { position: "fixed", top: "50%", left: "50%", transform: "translate(-50%, -50%)" };
   const [loading, setLoading] = useState(true);
   useEffect(() => {
-    setTimeout(() => setLoading(false), 1500)
+    setTimeout(() => setLoading(false), 3000)
   }, []) 
   const [isNavOpen, setIsNavOpen] = useState(false);
   const [mode, setMode] = useState('dark');
