@@ -5,7 +5,7 @@ import shop from '../public/Shopping.jpeg';
 import teach from '../public/React.jpeg';
 import club from '../public/Club.jpeg';
 import prof from '../public/Subject.png'
-import css from '../public/css3-alt.svg';
+import csss from '../public/css3-alt.svg';
 import html from '../public/html5.svg';
 import js from '../public/js.svg';
 import rect from '../public/react.svg';
@@ -23,18 +23,25 @@ import git from '../public/git-svgrepo-com.svg';
 import gh from '../public/github-svgrepo-com.svg';
 import webpack from '../public/webpack-svgrepo-com.svg';
 import ps from '../public/icons8-adobe-photoshop-100.png';
-import {useState} from 'react';
+import {useState, useEffect} from 'react';
 import '../i18next';
 import Select from '@mui/joy/Select';
 import Option from '@mui/joy/Option';
 import KeyboardArrowDown from '@mui/icons-material/KeyboardArrowDown';
 import {useTranslation} from 'react-i18next';
 import { DarkModeToggle } from '@anatoliygatt/dark-mode-toggle';
+import { MutatingDots } from 'react-loader-spinner';
+import DotLoader from "react-spinners/DotLoader";
+
 
 
 export default function Home() {
-  
 
+  const style = { position: "fixed", top: "50%", left: "50%", transform: "translate(-50%, -50%)" };
+  const [loading, setLoading] = useState(true);
+  useEffect(() => {
+    setTimeout(() => setLoading(false), 1500)
+  }, []) 
   const [isNavOpen, setIsNavOpen] = useState(false);
   const [mode, setMode] = useState('dark');
   const [darkMode, setDarkMode] = useState(true);
@@ -53,6 +60,9 @@ export default function Home() {
 }
   
   return (
+    <>
+    {loading === false ? (
+
     <div className={darkMode ? 'dark' : ' '}>
       
       <Head>
@@ -229,7 +239,7 @@ export default function Home() {
                 <p className='text-xs'>HTML</p>
               </div>
               <div className='mini pb-6'>
-                <Image src={css} alt="css" width={35} height={30}/>
+                <Image src={csss} alt="css" width={35} height={30}/>
                 <p className='text-xs'>CSS</p>
               </div>
               <div className='mini pb-6'>
@@ -412,5 +422,14 @@ export default function Home() {
         }
       `}</style>
     </div>
+    ) : (
+      <div style={style}>
+        <DotLoader 
+        color="#00BCD4"
+        size={200}
+          />
+      </div>
+    )}
+    </>
   )
 }
