@@ -206,7 +206,7 @@ export default function Home() {
                   <div class="flip-card-front">
                       <div className='p-9 md:p-10'>
                         <h2 className='text-4xl py-2 pb-10 text-teal-600 font-medium md:text-6xl text-center' suppressHydrationWarning>{t('Name.1')}</h2>
-                        <p className=' text-center leading-10 text-md py-2 text-gray-800 md:text-lg max-w-4xl mx-auto dark:text-teal-50' suppressHydrationWarning>
+                        <p className=' text-center leading-7 text-md py-2 text-gray-800 md:text-lg max-w-4xl mx-auto dark:text-teal-50' suppressHydrationWarning>
                         {t('Who.1')}
                         </p>
                       </div>
