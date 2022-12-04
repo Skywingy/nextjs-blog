@@ -332,7 +332,7 @@ export default function Home() {
                     <h3 className='text-xl font-bold pb-2 dark:text-teal-100' suppressHydrationWarning>{t('tech.1')}</h3>
                     <p className=' pb-10  dark:text-teal-50' suppressHydrationWarning>{t('technologies.1')}</p>
                     <span className='tovch flex gap-4'>
-                      <a href='https://frightful-spider-69655.herokuapp.com' target="_blank" className='uppercase text-xl pr-8 dark:text-teal-50' rel="noreferrer">Live Preview</a>
+                      <a href='https://members-only-production-7805.up.railway.app' target="_blank" className='uppercase text-xl pr-8 dark:text-teal-50' rel="noreferrer">Live Preview</a>
                       <a href='https://github.com/Skywingy/Members-Only' target="_blank" className='uppercase text-xl dark:text-teal-50' rel="noreferrer">View Code</a>
                     </span>
                   </span>
@@ -398,9 +398,7 @@ export default function Home() {
                   <p className='text-black uppercase pb-6 font-bold text-3xl dark:text-teal-50' suppressHydrationWarning >{t('contact.3')}</p>
                   <a href='https://www.instagram.com/nymkaa.nka/' target="_blank" className='text-black pb-6 uppercase font-bold text-3xl dark:text-teal-50' suppressHydrationWarning rel="noreferrer" >INSTAGRAM</a>
                   <a href='https://www.facebook.com/skywing.nyamka/' target="_blank" className='text-black pb-6 uppercase font-bold text-3xl dark:text-teal-50' suppressHydrationWarning rel="noreferrer" >GITHUB</a>
-                  
-                  
-                  
+      
             </div>
         </section>
       </main>
