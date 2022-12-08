@@ -32,7 +32,7 @@ import {useTranslation} from 'react-i18next';
 import { DarkModeToggle } from '@anatoliygatt/dark-mode-toggle';
 import { MutatingDots } from 'react-loader-spinner';
 import DotLoader from "react-spinners/DotLoader";
-
+import pol from '../public/polaroid.png';
 
 
 export default function Home() {
@@ -341,9 +341,29 @@ export default function Home() {
             <div className='divider border border-cyan-500'></div>
             <div className='cardie pb-8 flex flex-col'>
               <div className='titles'>
+                <p className=' text-4xl font-extrabold dark:text-teal-200' suppressHydrationWarning>{t('title.3')}</p>
+                <p className=' text-2xl font-medium pb-10 dark:text-teal-50' suppressHydrationWarning>{t('subtitle.3')}</p>
+                
+              </div>
+              <div className='spare flex flex-col lg:flex-row'>
+                  <Image src={teach} className='rounded-lg w-full lg:w-7/12 shadow-2xl' alt='portfolioC' />
+                  <span className='info pl-0 pt-8 lg:pl-14 lg:pt-0'>
+                    <h2 className='text-3xl pb-2  font-extrabold dark:text-teal-100' suppressHydrationWarning>{t('summ.1')}</h2>
+                    <p className=' pb-10 dark:text-teal-50' suppressHydrationWarning>{t('summary.3')}</p>
+                    <h3 className='text-xl pb-2 font-bold dark:text-teal-100' suppressHydrationWarning>{t('tech.1')}</h3>
+                    <p className=' pb-10  dark:text-teal-50' suppressHydrationWarning>{t('technologies.3')}</p>
+                    <span className='tovch flex gap-4'>
+                      <a href='#' className='uppercase text-xl pr-8 dark:text-teal-50'>Live Preview</a>
+                      <a href='#' className='uppercase text-xl dark:text-teal-50'>View Code</a>
+                    </span>
+                  </span>
+              </div>
+            </div>
+            <div className='divider  border border-cyan-500'></div>
+            <div className='cardie pb-8 flex flex-col'>
+              <div className='titles'>
                 <p className=' text-4xl uppercase font-extrabold  dark:text-teal-200' suppressHydrationWarning>{t('title.2')}</p>
                 <p className=' text-2xl uppercase font-medium pb-10  dark:text-teal-50' suppressHydrationWarning>{t('subtitle.2')}</p>
-                
               </div>
               <div className='spare flex flex-col lg:flex-row'>
                   <Image src={shop} className='rounded-lg w-full lg:w-7/12 shadow-2xl' alt='portfolioC' />
@@ -359,23 +379,22 @@ export default function Home() {
                   </span>
               </div>
             </div>
-            <div className='divider  border border-cyan-500'></div>
+            <div className='divider border border-cyan-500'></div>
             <div className='cardie pb-8 flex flex-col'>
               <div className='titles'>
-                <p className=' text-4xl font-extrabold dark:text-teal-200' suppressHydrationWarning>{t('title.3')}</p>
-                <p className=' text-2xl font-medium pb-10 dark:text-teal-50' suppressHydrationWarning>{t('subtitle.3')}</p>
-                
+                <p className=' text-4xl uppercase font-extrabold  dark:text-teal-200' suppressHydrationWarning>{t('title.4')}</p>
+                <p className=' text-2xl uppercase font-medium pb-10  dark:text-teal-50' suppressHydrationWarning>{t('subtitle.4')}</p>
               </div>
               <div className='spare flex flex-col lg:flex-row'>
-                  <Image src={teach} className='rounded-lg w-full lg:w-7/12 shadow-2xl' alt='portfolioC' />
+                  <Image src={pol} className='rounded-lg w-full lg:w-7/12 shadow-2xl' alt='portfolioC' />
                   <span className='info pl-0 pt-8 lg:pl-14 lg:pt-0'>
                     <h2 className='text-3xl pb-2  font-extrabold dark:text-teal-100' suppressHydrationWarning>{t('summ.1')}</h2>
-                    <p className=' pb-10 dark:text-teal-50' suppressHydrationWarning>{t('summary.3')}</p>
-                    <h3 className='text-xl pb-2 font-bold dark:text-teal-100' suppressHydrationWarning>{t('tech.1')}</h3>
-                    <p className=' pb-10  dark:text-teal-50' suppressHydrationWarning>{t('technologies.3')}</p>
+                    <p className=' pb-10 dark:text-teal-50' suppressHydrationWarning>{t('summary.4')}</p>
+                    <h3 className='text-xl font-bold pb-2 dark:text-teal-100' suppressHydrationWarning>{t('tech.1')}</h3>
+                    <p className=' pb-10  dark:text-teal-50' suppressHydrationWarning>{t('technologies.4')}</p>
                     <span className='tovch flex gap-4'>
-                      <a href='#' className='uppercase text-xl pr-8 dark:text-teal-50'>Live Preview</a>
-                      <a href='#' className='uppercase text-xl dark:text-teal-50'>View Code</a>
+                      <a href='https://abstracted-dynamic-armchair.glitch.me' target="_blank" className='uppercase text-xl pr-8 dark:text-teal-50' rel="noreferrer">Live Preview</a>
+                      <a href='https://github.com/Skywingy/NeedleTest' target="_blank" className='uppercase text-xl dark:text-teal-50' rel="noreferrer">View Code</a>
                     </span>
                   </span>
               </div>
