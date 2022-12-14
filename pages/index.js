@@ -33,10 +33,13 @@ import { DarkModeToggle } from '@anatoliygatt/dark-mode-toggle';
 import { MutatingDots } from 'react-loader-spinner';
 import DotLoader from "react-spinners/DotLoader";
 import pol from '../public/polaroid.png';
+import ReactGa from 'react-ga4';
+import { BrowserRouter as Router, Routes, Route, useLocation} from 'react-dom'; 
 
+
+ReactGa.initialize("G-M4RHL0CZCR");
 
 export default function Home() {
-
   const style = { position: "fixed", top: "50%", left: "50%", transform: "translate(-50%, -50%)" };
   const [loading, setLoading] = useState(true);
   useEffect(() => {
