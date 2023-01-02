@@ -335,7 +335,7 @@ export default function Home() {
                     <h3 className='text-xl font-bold pb-2 dark:text-teal-100' suppressHydrationWarning>{t('tech.1')}</h3>
                     <p className=' pb-10  dark:text-teal-50' suppressHydrationWarning>{t('technologies.1')}</p>
                     <span className='tovch flex gap-4'>
-                      <a href='https://members-only-production-7805.up.railway.app' target="_blank" className='uppercase text-xl pr-8 dark:text-teal-50' rel="noreferrer">Live Preview</a>
+                      <a href='https://members-only-production-ef4c.up.railway.app' target="_blank" className='uppercase text-xl pr-8 dark:text-teal-50' rel="noreferrer">Live Preview</a>
                       <a href='https://github.com/Skywingy/Members-Only' target="_blank" className='uppercase text-xl dark:text-teal-50' rel="noreferrer">View Code</a>
                     </span>
                   </span>
