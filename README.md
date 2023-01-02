@@ -40,7 +40,7 @@ Check out our [Next.js deployment documentation](https://nextjs.org/docs/deploym
 
 > > > > > > > d2954c2 (First commit)
 
-## Commans to use
+## Commans to useee
 
 1. git add .
 2. git commit -m ''
